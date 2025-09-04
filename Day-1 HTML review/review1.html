@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>HTML Formatting and Form</title>
+</head>
+<body>
+
+  <h1>Text Formatting Examples</h1>
+
+  <p><strong>Strong</strong> and <b>Bold</b> text</p>
+  <p><em>Emphasized</em> and <i>Italic</i> text</p>
+  <p><u>Underlined</u> and <mark>Highlighted</mark> text</p>
+  <p><del>Deleted</del> and <ins>Inserted</ins> text</p>
+  <p>Small text: <small>This is smaller</small></p>
+  <p>Subscript: H<sub>2</sub>O and Superscript: x<sup>2</sup></p>
+  <blockquote>“১০০ দিনে চ্যালেঞ্জ নিলাম, ভালো কিছুর আশায়”</blockquote>
+  <p>Abbreviation: <abbr title="Search Engine Optimization">SEO</abbr></p>
+  <p>Citation: <cite>Design of Everyday Things</cite></p>
+  <pre>
+   tomra sobai kemon acho?
+          valo to?
+             valo na?
+      na thakle fokhrul saheber bari ache na?       
+  </pre>
+
+  <hr>
+
+  <h2>Contact/Registration Form</h2>
+
+  <form action="#" method="post">
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="phone">Phone:</label><br>
+    <input type="tel" id="phone" name="phone"><br><br>
+
+    <label for="country">Country:</label><br>
+    <select id="country" name="country">
+      <option value="">Select...</option>
+      <option value="BD">Bangladesh</option>
+      <option value="IN">India</option>
+      <option value="US">United States</option>
+    </select><br><br>
+
+    <label>Gender:</label><br>
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female
+    <input type="radio" name="gender" value="other"> Other<br><br>
+
+    <label>Interests:</label><br>
+    <input type="checkbox" name="interests" value="design"> Design
+    <input type="checkbox" name="interests" value="dev"> Development
+    <input type="checkbox" name="interests" value="edu"> Education<br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="40"></textarea><br><br>
+
+    <input type="checkbox" name="terms" required> I agree to the terms<br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+
+</body>
+</html>
